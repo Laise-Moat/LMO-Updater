@@ -52,7 +52,7 @@ Partial Class Form1
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(460, 37)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Zu jeder Zeit Up-to-date mit"
+        Me.Label2.Text = "Immer Up-to-date mit dem"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label3
@@ -63,7 +63,7 @@ Partial Class Form1
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(460, 37)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Aktualisiere deine Initialisierung!"
+        Me.Label3.Text = "Aktualisiere deine Welt!"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label4
@@ -71,7 +71,7 @@ Partial Class Form1
         Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(19, Byte), Integer), CType(CType(154, Byte), Integer), CType(CType(67, Byte), Integer))
         Me.Label4.Font = New System.Drawing.Font("Segoe UI Semibold", 12.4!, System.Drawing.FontStyle.Bold)
         Me.Label4.Image = Global.LMO_Updater.My.Resources.Resources.Button
-        Me.Label4.Location = New System.Drawing.Point(128, 443)
+        Me.Label4.Location = New System.Drawing.Point(128, 409)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(229, 60)
         Me.Label4.TabIndex = 3
@@ -94,7 +94,7 @@ Partial Class Form1
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(460, 34)
         Me.Label5.TabIndex = 5
-        Me.Label5.Text = "Lade Bytes Auf den Personalisierten Rechner..." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label5.Text = "Lade die aktuellste Version von LMO herunter..."
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.Label5.Visible = False
         '
