@@ -1,4 +1,5 @@
-﻿Imports System
+﻿Imports System.Resources
+Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -9,11 +10,11 @@ Imports System.Runtime.InteropServices
 ' Werte der Assemblyattribute überprüfen
 
 <Assembly: AssemblyTitle("LMO Updater")>
-<Assembly: AssemblyDescription("")>
+<Assembly: AssemblyDescription("Laise Moat: Online - Updater")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("LMO Updater")>
 <Assembly: AssemblyCopyright("Copyright ©  2023")>
-<Assembly: AssemblyTrademark("")>
+<Assembly: AssemblyTrademark("Laise Moat")>
 
 <Assembly: ComVisible(False)>
 
@@ -31,5 +32,6 @@ Imports System.Runtime.InteropServices
 ' indem Sie "*" wie unten gezeigt eingeben:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.0.0.0")>
-<Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: AssemblyVersion("1.1.3.0")>
+<Assembly: AssemblyFileVersion("1.1.3.0")>
+<Assembly: NeutralResourcesLanguage("de-DE")>
