@@ -27,7 +27,7 @@ Public Class Form1
 		Dim wc As New WebClient
 		AddHandler wc.DownloadProgressChanged, AddressOf ProgChanged
 		AddHandler wc.DownloadFileCompleted, AddressOf ProgDone
-		wc.DownloadFileAsync(New Uri("https://ssl.cdn.toaaa.de/lmo/download/latest.zip"), "latestD.zip")
+		wc.DownloadFileAsync(New Uri("https://cdn2.toaaa.de/lmo/latest.zip"), "latestD.zip")
 	End Sub
 
 	Private Sub ProgDone(sender As Object, e As AsyncCompletedEventArgs)
