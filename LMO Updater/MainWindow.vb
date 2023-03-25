@@ -50,7 +50,7 @@ Public Class MainWindow
 			Dim wc As New WebClient
 			AddHandler wc.DownloadProgressChanged, AddressOf ProgChanged
 			AddHandler wc.DownloadFileCompleted, AddressOf ProgDone
-			wc.DownloadFileAsync(New Uri("https://cdn2.toaaa.de/lmo/latest.zip"), "latestD.zip")
+			wc.DownloadFileAsync(New Uri("https://cdn.laise-moat.com/lmo/latest.zip"), "latestD.zip")
 		ElseIf Label4.Text = "Beenden" Then
 			End
 		End If
